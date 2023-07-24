@@ -38,11 +38,3 @@ public class Horse extends ChessPiece {
     }
 
 }
-
-    /*
-    !chessBoard.board[toLine][toColumn].getColor().equals(color) || chessBoard.board[toLine][toColumn] == null;
-    Реализуйте метод canMoveToPosition() так, чтобы конь не мог выйти за доску (доска в нашем случае — это двумерный массив размером 8 на 8,
-     напоминаем, что индексы начинаются с 0) и мог ходить только буквой «Г».
-     Также фигура не может сходить в точку, в которой она сейчас находится.
-     Если конь может пройти от точки (line, column) до точки (toLine, toColumn) по всем правилам (указанным выше), то функция вернет true, иначе — false.
-     */
